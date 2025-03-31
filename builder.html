@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasicBuilds</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>BasicBuilds</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="builder.html">Build Your PC</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Select Your Components</h2>
+
+        <label for="cpu">CPU:</label>
+        <select id="cpu"></select>
+
+        <label for="gpu">GPU:</label>
+        <select id="gpu"></select>
+
+        <label for="ram">RAM:</label>
+        <select id="ram"></select>
+
+        <label for="psu">Power Supply:</label>
+        <select id="psu"></select>
+
+        <button onclick="calculatePower()">Check Compatibility</button>
+
+        <h3 id="result"></h3>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
