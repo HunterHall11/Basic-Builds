@@ -1,0 +1,16 @@
+{
+    "cpu": [
+        {"name": "Intel i5-13600K", "socket": "LGA1700", "power": 125, "price": "$299", "link": "https://example.com/intel-i5"},
+        {"name": "AMD Ryzen 7 7800X", "socket": "AM5", "power": 105, "price": "$349", "link": "https://example.com/ryzen-7"}
+    ],
+    "gpu": [
+        {"name": "NVIDIA RTX 4070", "power": 200, "price": "$599", "link": "https://example.com/rtx-4070"},
+        {"name": "AMD RX 7800 XT", "power": 260, "price": "$499", "link": "https://example.com/rx-7800xt"}
+    ],
+    "ram": [
+        {"name": "Corsair Vengeance 32GB DDR5", "type": "DDR5", "power": 10, "price": "$159", "link": "https://example.com/vengeance-32gb"}
+    ],
+    "psu": [
+        {"name": "Corsair RM750x 750W", "power": 750, "price": "$129", "link": "https://example.com/rm750x"}
+    ]
+}
